@@ -1,3 +1,5 @@
+
+#Packages
 import datetime
 import calendar
 import pandas as pd
@@ -49,8 +51,7 @@ def get_filters():
 
    while True:
         # get user input to filter the data(month,day of the week or none)
-        time_period = input("\nWould you like to filter the data by month and day of the week('month'), day of the week('day'), not at all ('none'): ")
-        time_period=time_period.lower()
+        time_period = input("\nWould you like to filter the data by month and day of the week('month'), day of the week('day'), not at all ('none'): ").lower()
 
         # get user input for month (all, january, february, ... , june)
         if time_period=='month':
@@ -64,7 +65,7 @@ def get_filters():
                     break
             while True:
               # get user input for day of week (all, monday, tuesday, ... sunday)
-              filterByDayOfMonth = input("\nWould you like to filter by day of the week. Type 'y' or 'n':")
+              filterByDayOfMonth = input("\nWould you like to filter by day of the week. Type 'y' or 'n':").lower()
               if filterByDayOfMonth=='y':
                    while True:
                         day=input("\nWhich day of the week would you like to analyze? Type the name of the day in full.").lower()
