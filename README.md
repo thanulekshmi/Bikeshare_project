@@ -2,10 +2,10 @@
 November 18th,2019
 
 ###Title
-Python Script to Analyse US Bikeshare Data for Chicago, New York City and Washington:
+Python Script to analyse US Bikeshare Data for Chicago, New York City and Washington:
 
 ### Description
-This project was developed as a part of Data Analyst Nanadegree by Udacity. This python script is used to explore data related to bike share systems for three major cities in the United States—Chicago, New York City, and Washington. It computes the descriptive statistics for given data by importing the .csv files. It also takes the user's raw input and create an interactive experience in the terminal to present these statistics.
+This project was developed as a part of Data Analyst Nanodegree by Udacity. This python script is used to explore data related to bike share systems for three major cities in the United States—Chicago, New York City, and Washington. It computes the descriptive statistics for given data by importing the .csv files. It also takes the user's raw input and create an interactive experience in the terminal to present these statistics.
 
 Bike Share Data
 Over the past decade, bicycle-sharing systems have been growing in number and popularity in cities across the world. Bicycle-sharing systems allow users to rent bicycles on a very short-term basis for a price. This allows people to borrow a bike from point A and return it at point B, though they can also return it to the same location if they'd like to just go for a ride. Regardless, each bike can serve several users per day.
@@ -60,4 +60,4 @@ numpy
 
 
 ### Credits:
-Lessons in the Introduction to Data Analysis section of Udacity's Data Aanalyst Nanodegree (DAND)
+Lessons in the Introduction to Data Analysis section of Udacity's Data Analyst Nanodegree (DAND)
