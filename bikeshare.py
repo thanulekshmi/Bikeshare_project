@@ -3,7 +3,8 @@
 import datetime
 import calendar
 import pandas as pd
-import numpy as np
+
+#Dictionary
 
 CITIES_DATA ={'chicago':'chicago.csv',
             'washington' : 'washington.csv',
@@ -21,6 +22,8 @@ WEEK_DATA = {'monday' : 0,
              'friday' : 4,
              'saturday' : 5,
              'sunday' : 6}
+
+#Methods
 
 def get_city():
    """
@@ -258,6 +261,7 @@ def main():
     if restart.upper() == 'YES' or restart.upper() == "Y":
         main()
 
+#Main module
 
 if __name__=="__main__":
     main()
