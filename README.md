@@ -29,7 +29,7 @@ The Chicago and New York City files also have the following two columns:
 Gender
 Birth Year
 
-Statistics Computed
+### Statistics Computed
 
 #1 Popular times of travel (i.e., occurs most often in the start time)
 most common month
